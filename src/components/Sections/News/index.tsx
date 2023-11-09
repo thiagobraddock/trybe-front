@@ -16,7 +16,7 @@ function News() {
               está melhorando a cada dia!
             </h2>
             <p className="wow fadeInUp" data-wow-delay=".6s">
-              A Turma 34 começa com muitas novidades: tecnologias, projetos inovadores e muita, muita prática!
+              Front-end começa com muitas novidades: tecnologias, projetos inovadores e muita, muita prática!
             </p>
           </div>
         </div>
