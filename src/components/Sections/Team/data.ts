@@ -37,7 +37,7 @@ export const data: TeamMemberData = [
   },
   {
     name: 'Danielli "Dani" Olegário',
-    teamRole: 'Soft Skills e Carreira',
+    teamRole: 'Especialista - Soft Skills e Carreira',
     imgSrc: dani,
     linkedinUrl: 'https://www.linkedin.com/in/danielliolegario/',
   },
