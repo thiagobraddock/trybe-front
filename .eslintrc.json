@@ -1,0 +1,17 @@
+{
+  "extends": "@trybe/eslint-config-frontend/typescript",
+  "overrides": [
+    {
+      "files": ["*.ts", "*.tsx"],
+      "rules": {
+        "react/jsx-max-depth": "off",
+        "max-len": "off",
+        "jsx-a11y/anchor-is-valid": "off",
+        "max-lines": "off"
+      }
+    }
+  ],
+  "rules": {
+    "sonarjs/no-duplicate-string": "off"
+  }
+}
