@@ -30,7 +30,7 @@ export const data: TeamMemberData = [
   },
   {
     name: 'Stéphanie "Teph" Moraes',
-    teamRole: 'Facilitação',
+    teamRole: 'Facilitação e Experiência',
     imgSrc: teph,
     linkedinUrl: 'https://www.linkedin.com/in/stephaniemoraes/',
     goodreadsUrl: 'https://www.goodreads.com/user/show/161335548-st-phanie-santos',

@@ -40,7 +40,7 @@ function CourseDetails() {
             },
           ] }
           description="Os primeiros passos em um novo mundo"
-          numberOfDays={ 5 }
+          numberOfDays={ 6 }
           sessionNumber={ 1 }
         />
         <CourseDetailCard
@@ -104,7 +104,7 @@ function CourseDetails() {
             },
           ] }
           description="A base para o desenvolvimento front-end"
-          numberOfDays={ 9 }
+          numberOfDays={ 8 }
           sessionNumber={ 2 }
         />
         <CourseDetailCard
