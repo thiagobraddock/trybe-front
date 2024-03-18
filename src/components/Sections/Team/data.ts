@@ -1,22 +1,14 @@
 import { TeamMemberCardProps } from '../../TeamMemberCard';
 import braddock from '../../../assets/images/members/braddock.png';
-import teph from '../../../assets/images/members/teph.png';
 import joao from '../../../assets/images/members/joao.png';
-import filipe from '../../../assets/images/members/filipe.png';
 import dani from '../../../assets/images/members/dani.png';
-import ivan from '../../../assets/images/members/ivan.png';
-import sugano from '../../../assets/images/members/sugano.png';
 import felipe from '../../../assets/images/members/felipe.png';
 import tiago from '../../../assets/images/members/tiago.png';
-import renato from '../../../assets/images/members/renato.png';
-import zambelli from '../../../assets/images/members/zambelli.png';
 import carol from '../../../assets/images/members/caroline.png';
-import jay from '../../../assets/images/members/jayelle.png';
-import rafa from '../../../assets/images/members/rafa.png';
-import ander from '../../../assets/images/members/ander.png';
-import will from '../../../assets/images/members/will.png';
-import frames from '../../../assets/images/members/frames.png';
-import felipenunes from '../../../assets/images/members/felipenunes.jpg';
+import cadu from '../../../assets/images/members/cadu.png';
+import thalles from '../../../assets/images/members/thalles.png';
+import mari from '../../../assets/images/members/mari.png';
+import joicy from '../../../assets/images/members/joicy.jpeg';
 
 type TeamMemberData = TeamMemberCardProps[];
 
@@ -29,30 +21,23 @@ export const data: TeamMemberData = [
     githubUrl: 'https://github.com/ftrindade87',
   },
   {
-    name: 'Stéphanie "Teph" Moraes',
-    teamRole: 'Facilitação e Experiência',
-    imgSrc: teph,
-    linkedinUrl: 'https://www.linkedin.com/in/stephaniemoraes/',
-    goodreadsUrl: 'https://www.goodreads.com/user/show/161335548-st-phanie-santos',
-  },
-  {
-    name: 'Danielli "Dani" Olegário',
+    name: 'Mariana "Mari" Demarchi',
     teamRole: 'Especialista - Soft Skills e Carreira',
-    imgSrc: dani,
-    linkedinUrl: 'https://www.linkedin.com/in/danielliolegario/',
+    imgSrc: mari,
+    linkedinUrl: 'https://www.linkedin.com/in/mariana-demarchi/',
   },
-  {
-    name: 'Jayelle Marchiore',
-    teamRole: 'Especialista - Soft Skills e Carreira',
-    imgSrc: jay,
-    linkedinUrl: 'https://www.linkedin.com/in/jay-marchiore/',
-  },
-  {
-    name: 'Caroline Costa Lima',
-    teamRole: 'Especialista - Soft Skills e Carreira',
-    imgSrc: carol,
-    linkedinUrl: 'https://www.linkedin.com/in/caroline-lima/',
-  },
+  // {
+  //   name: 'Danielli "Dani" Olegário',
+  //   teamRole: 'Especialista - Soft Skills e Carreira',
+  //   imgSrc: dani,
+  //   linkedinUrl: 'https://www.linkedin.com/in/danielliolegario/',
+  // },
+  // {
+  //   name: 'Caroline Costa Lima',
+  //   teamRole: 'Especialista - Soft Skills e Carreira',
+  //   imgSrc: carol,
+  //   linkedinUrl: 'https://www.linkedin.com/in/caroline-lima/',
+  // },
   {
     name: 'Thiago "Braddock"',
     teamRole: 'Especialista',
@@ -64,50 +49,6 @@ export const data: TeamMemberData = [
     youtubeUrl: 'https://youtube.com/programadorcaipira',
   },
   {
-    name: 'Felipe Becker Nunes',
-    teamRole: 'Especialista',
-    imgSrc: felipenunes,
-    linkedinUrl: 'https://www.linkedin.com/in/felipe-becker-nunes-b561a576/',
-    githubUrl: 'https://github.com/nunesfb',
-    youtubeUrl: 'https://www.youtube.com/@TecEdu4All',
-  },
-  {
-    name: 'Paulo Ricardo Zambelli Taveira',
-    teamRole: 'Especialista',
-    imgSrc: zambelli,
-    linkedinUrl: 'https://www.linkedin.com/in/paulo-ricardo-zambelli-taveira/',
-    githubUrl: 'https://github.com/pauloricardoz',
-  },
-  {
-    name: 'Tiago "Frames" Quadros',
-    teamRole: 'Especialista',
-    imgSrc: frames,
-    linkedinUrl: 'https://www.linkedin.com/in/tiagosq/',
-    githubUrl: 'https://github.com/tiago-sq',
-  },
-  {
-    name: 'Renato Calzzetta Moraes Freire',
-    teamRole: 'Especialista',
-    imgSrc: renato,
-    linkedinUrl: 'https://www.linkedin.com/in/renato-freire/',
-    githubUrl: 'https://github.com/renatofreire',
-  },
-  {
-    name: 'Ivan Rafael',
-    teamRole: 'Instrutor',
-    imgSrc: ivan,
-    linkedinUrl: 'https://www.linkedin.com/in/ivan-rafael/',
-    githubUrl: 'https://github.com/IvanRafael-Dev',
-    instagramUrl: 'http://instagram.com/ivandolim',
-  },
-  {
-    name: 'Flávio Sugano',
-    teamRole: 'Instrutor',
-    imgSrc: sugano,
-    linkedinUrl: 'https://www.linkedin.com/in/flaviosugano/',
-    githubUrl: 'https://github.com/flaviosugano',
-  },
-  {
     name: 'João Andrade Junior',
     teamRole: 'Instrutor',
     imgSrc: joao,
@@ -115,11 +56,18 @@ export const data: TeamMemberData = [
     githubUrl: 'https://github.com/joaoAndradeJr',
   },
   {
-    name: 'Filipe Santana',
+    name: 'Carlos "Cadu" Patricio',
     teamRole: 'Instrutor',
-    imgSrc: filipe,
-    linkedinUrl: 'https://www.linkedin.com/in/filipesantanadev/',
-    githubUrl: 'https://github.com/FilipeSkmc',
+    imgSrc: cadu,
+    linkedinUrl: 'https://www.linkedin.com/in/carlos-waldow/',
+    githubUrl: 'https://github.com/cpwaldow',
+  },
+  {
+    name: 'Joicy Daliane S. Oliveira',
+    teamRole: 'Instrutora',
+    imgSrc: joicy,
+    linkedinUrl: 'https://www.linkedin.com/in/joioliveira/',
+    githubUrl: 'https://github.com/joicyoliv',
   },
   {
     name: 'Tiago de Almeida Paz',
@@ -129,25 +77,11 @@ export const data: TeamMemberData = [
     githubUrl: 'https://github.com/TiagoPaz2000',
   },
   {
-    name: 'Rafael Reis do Nascimento',
+    name: 'Thalles de Oliveira Carneiro',
     teamRole: 'Instrutor',
-    imgSrc: rafa,
-    linkedinUrl: 'https://www.linkedin.com/in/rafael-reis-do-nascimento/',
-    githubUrl: 'https://github.com/rafaelrnascimento2006',
-  },
-  {
-    name: 'Anderson Souza Santana',
-    teamRole: 'Instrutor',
-    imgSrc: ander,
-    linkedinUrl: 'https://www.linkedin.com/in/andersonssantana/',
-    githubUrl: 'https://github.com/andersonssantana',
-  },
-  {
-    name: 'Willian Rodrigues',
-    teamRole: 'Instrutor',
-    imgSrc: will,
-    linkedinUrl: 'https://www.linkedin.com/in/willianrsilva/',
-    githubUrl: 'https://github.com/Willian-Rodrigues',
+    imgSrc: thalles,
+    linkedinUrl: 'https://www.linkedin.com/in/thallescarneiro/',
+    githubUrl: 'https://github.com/thalles-carneiro',
   },
 
 ];
