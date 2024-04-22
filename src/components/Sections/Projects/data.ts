@@ -41,14 +41,20 @@ export const PROJECTS_LIST = [
     description: 'Projeto em grupo que utiliza React e TypeScript para praticar todo conhecimento adquirido até o momento no módulo de Front-end. Você desenvolverá uma loja online, utilizando a API do Mercado Livre e nessa aplicação será possível adicionar e gerenciar produtos no seu carrinho e preencher um formulário de compra e avaliação dos produtos.',
   },
   {
-    title: 'TrybeWallet ✨ 50 pontos',
+    title: 'TrybeWallet ✨ 45 pontos',
     image: wallet,
     description: 'Projeto em React e TypeScript onde são desenvolvidas habilidades de estado global com Redux . Você irá desenvolver uma carteira de controle de gastos pessoais, com conversor de moedas, utilizando a API de câmbio para atualizar os valores de acordo com a cotação do dia. Além disso, irá testar sua aplicação utilizando React Testing Library.',
+    exercises: [
+      { title: 'Form Redux', points: '✨ 5 pontos' },
+    ],
   },
   {
-    title: 'Star Wars - Planets Search ✨ 50 pontos',
+    title: 'Star Wars - Planets Search ✨ 40 pontos',
     image: starWars,
     description: 'Projeto em React e TypeScript onde são desenvolvidas habilidades de estado global com Context API com auxílio de hooks customizados. Você desenvolverá uma aplicação que lista planetas do universo Star Wars, utilizando uma API. Nesta aplicação você poderá adicionar diversos filtros de busca para filtrar e ordenar os planetas que deseja. Além disso, irá garantir a qualidade do seu código com testes de integração com o React Testing Library.',
+    exercises: [
+      { title: 'Ghibli Animations', points: '✨ 10 pontos' },
+    ],
   },
   {
     title: 'Recipes App ✨ 50 pontos',
